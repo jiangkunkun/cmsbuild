@@ -68,7 +68,7 @@ import com.mingsoft.util.FileUtil;
 import com.mingsoft.util.StringUtil;
 
 /**
- * 基础控制类
+ * 基础控制类555
  * @author 王天培QQ:78750478
  * @version 
  * 版本号：100-000-000<br/>
