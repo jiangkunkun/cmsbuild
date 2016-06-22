@@ -35,7 +35,7 @@ $(document).ready(function(){
 			   url: "${base}/manager/tsignRecord/saveSignRecord.do?userId=1",
 			   success: function(msg){
 			        if(msg){
-			       	alert(result.msg);
+			       		alert(msg.msg);
 			     	}
 			   }
 			})

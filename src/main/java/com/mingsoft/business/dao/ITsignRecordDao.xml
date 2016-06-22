@@ -106,7 +106,7 @@
 	
 	<!-- 字段列表分页查询开始 -->
 	<select id="findTsignRecordByParam" resultMap="resultMapField" parameterType="int">
-		select * from t_sign_record t where id=#{id} and str_to_date(t.CREATE_TIME, '%Y-%m-%d')=str_to_date(SYSDATE(), '%Y-%m-%d') ;
+		select * from t_sign_record t where USER_ID=#{userId} and str_to_date(t.CREATE_TIME, '%Y-%m-%d')=str_to_date(SYSDATE(), '%Y-%m-%d') ;
 	</select>
 	<!-- 字段列表分页查询结束 -->
 	

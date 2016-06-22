@@ -14,6 +14,6 @@ public interface ITsignRecordDao extends IBaseDao {
 	public void deleteEntity(@Param("id")int id);
 	public TsignRecordEntity getTsignRecordEntity(@Param("id")int id);
 	public void updateEntity(TsignRecordEntity tsignRecordEntity);
-	public List<TsignRecordEntity> findTsignRecordByParam(@Param("id")int userId);
+	public List<TsignRecordEntity> findTsignRecordByParam(@Param("userId")int userId);
 }
 	
